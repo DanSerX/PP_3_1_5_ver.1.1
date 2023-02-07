@@ -8,4 +8,5 @@ PP_3_1_5 ver.1.1
 
 Ссылки:
 https://learn.javascript.ru/fetch
+
 https://habr.com/ru/company/otus/blog/440046/

@@ -59,14 +59,12 @@ public class RestAdminController {
 
     @PostMapping("/create")
     public ResponseEntity<User> createUser(@RequestBody User user) {
-        System.out.println(user.toString());
         userService.createUser(user);
         return ResponseEntity.ok().body(user);
     }
 
     @PutMapping("/update")
     public ResponseEntity<User> updateUser(@RequestBody User user) {
-        System.out.println(user.toString());
         userService.updateUser(user);
         return ResponseEntity.ok().body(user);
     }
